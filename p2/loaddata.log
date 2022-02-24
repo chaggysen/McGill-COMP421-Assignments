@@ -1,0 +1,1380 @@
+(c) Copyright IBM Corporation 1993,2007
+Command Line Processor for DB2 Client 11.5.4.0
+
+You can issue database manager commands and SQL statements from the command 
+prompt. For example:
+    db2 => connect to sample
+    db2 => bind sample.bnd
+
+For general help, type: ?.
+For command help, type: ? command, where command can be
+the first few keywords of a database manager command. For example:
+ ? CATALOG DATABASE for help on the CATALOG DATABASE command
+ ? CATALOG          for help on all of the CATALOG commands.
+
+To exit db2 interactive mode, type QUIT at the command prompt. Outside 
+interactive mode, all commands must be prefixed with 'db2'.
+To list the current command option settings, type LIST COMMAND OPTIONS.
+
+For more detailed help, refer to the Online Reference Manual.
+
+db2 => db2 => db2 => db2 => db2 => CONNECT TO cs421
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.4.0
+ SQL authorization ID   = SWANG298
+ Local database alias   = CS421
+
+
+db2 => db2 => db2 => db2 => db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('ghorrell0@imageshack.us', '947 Crest Line Terrace', '747-542-5435', 'Blanda LLC', 'diigo.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('abondy1@google.pl', '07 Linden Terrace', '520-849-5716', 'Mayert, Hoeger and Mertz', 'youtube.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('kstoves2@sohu.com', '615 Chinook Alley', '379-545-6973', 'Daugherty, Rau and Kautzer', 'clickbank.net')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('mszachniewicz3@spiegel.de', '78360 Holmberg Lane', '204-313-1220', 'Murazik-Dietrich', 'mozilla.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('mdrury4@archive.org', null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('mwelbeck5@wordpress.org', '18 Brown Terrace', '316-787-0127', 'Dickinson-Graham', 'dedecms.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('amoseby6@free.fr', '78 Truax Center', '836-416-5336', 'Johnston Inc', 'ted.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('tgerald7@umn.edu', '4 Westend Road', '498-858-4137', 'Rohan-Bernier', 'omniture.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('vdoy8@acquirethisname.com', '91917 Loftsgordon Parkway', '269-808-0647', 'Mitchell LLC', 'tripadvisor.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('cwilsey9@nature.com', '95 Scott Circle', '215-141-0247', 'Kautzer, Grimes and Schmidt', 'smugmug.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('glarimera@cdbaby.com', '70 Golf Course Junction', '525-314-9025', 'Auer, O''Kon and Kling', 'google.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('rtrengrouseb@imgur.com', '4741 Dahle Center', '924-287-1883', 'Zemlak Inc', 'baidu.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('dplampinc@edublogs.org', '7187 Kipling Point', '870-392-2742', 'Tillman LLC', 'toplist.cz')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('ebugged@toplist.cz', null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('mdelgardilloe@free.fr', '160 Eagle Crest Avenue', '698-192-8400', 'Adams, Gerlach and Zieme', 'loc.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('atornf@nih.gov', '0 Westport Road', '563-605-9087', 'DuBuque-Pollich', 'quantcast.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('thassang@friendfeed.com', '193 International Parkway', '165-935-3371', 'Hilpert, Greenholt and Gleichner', 'loc.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('hayrtonh@unblog.fr', '2 Arapahoe Drive', '375-277-9602', 'Hagenes Group', 'archive.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('wjirasi@devhub.com', '253 Hanson Plaza', '355-874-9530', 'Herman, Mohr and Runolfsson', 'homestead.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('ktuerenaj@vinaora.com', '507 Sachtjen Trail', '210-825-5494', 'Rath-Hettinger', 'accuweather.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('tpeacherk@google.it', '8547 Lunder Avenue', '225-641-3499', 'Nader, Sanford and Jones', 'state.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('achasel@house.gov', '8008 Burning Wood Center', '117-468-7760', 'McCullough and Sons', 'feedburner.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('kchopym@ed.gov', '845 Springs Terrace', '679-237-6180', 'Rodriguez Group', 'un.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('kjerremsn@amazonaws.com', '92126 Trailsway Street', '409-300-0370', 'Bosco Inc', 'slate.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('kgreensiteo@tamu.edu', '6922 Crowley Avenue', '114-745-2415', 'Huels, Harber and Champlin', 'e-recht24.de')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('jgoodierp@ameblo.jp', '4666 Parkside Terrace', '672-343-2085', 'Simonis-O''Keefe', 'yahoo.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('ndonanq@delicious.com', '6440 Di Loreto Center', '675-809-1364', 'Stoltenberg-Bashirian', 'purevolume.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('sfriesr@dropbox.com', '0 Huxley Alley', '752-723-6966', 'Howe LLC', 'theguardian.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('tdownss@berkeley.edu', '2 Memorial Center', '184-551-5623', 'Bayer, Schoen and Hand', 'rambler.ru')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('vlevayt@plala.or.jp', '5474 International Park', '702-555-9948', 'Kovacek-Nader', 'alexa.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('hbroaderu@mail.ru', '509 4th Avenue', '601-638-1826', 'Robel, Dickens and Walter', 'domainmarket.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('lmortlockv@theguardian.com', '4 Gulseth Terrace', '208-439-2860', 'Lockman, Bednar and Schoen', 'wiley.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('bdecortw@wsj.com', '2551 Sutteridge Trail', '238-356-4483', 'Gutmann, Treutel and Wisoky', 'geocities.jp')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('hcorkishx@craigslist.org', '2 Wayridge Lane', '742-201-6311', 'Rempel and Sons', 'stanford.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('sbonsally@blinklist.com', '7 David Crossing', '100-691-8861', 'Bahringer, Larson and Cummerata', 'facebook.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('earnalz@hostgator.com', '1 Sullivan Center', '742-800-8380', 'Walker, Johnson and Schaefer', 'odnoklassniki.ru')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('ogiffard10@nydailynews.com', '84 Straubel Plaza', '469-988-5487', 'Gutmann, Brakus and Cremin', 'wsj.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('jwylie11@va.gov', '12 Walton Trail', '878-684-6736', 'O''Conner-Hand', 'skyrock.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('clord12@nba.com', '77058 Scoville Circle', '688-167-7074', 'Lac-Saint-Louis', 'wisc.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('gemor13@github.io', '26383 Lakewood Drive', '239-981-3567', 'Rosenbaum, Brown and Wehner', 'sphinn.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('vpaling14@mac.com', '39 Tomscot Point', '934-655-0769', 'Rohan, Streich and Mosciski', 'vkontakte.ru')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('fbratten15@vinaora.com', '625 Muir Avenue', '337-112-3401', 'Casper and Sons', 'github.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('clegassick16@huffingtonpost.com', '3817 Westend Center', '608-311-3064', 'Rempel-Gerlach', 'ning.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('rhighman17@illinois.edu', '2 Sunfield Junction', '638-416-5186', 'Rowe-Abbott', 'purevolume.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('kedland18@craigslist.org', '1 Sullivan Street', '600-645-2220', 'Stanton and Sons', 'pagesperso-orange.fr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('chuxham19@infoseek.co.jp', '231 Merchant Junction', '723-390-3050', 'Hettinger-Crona', 'domainmarket.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('rjorgesen1a@smugmug.com', '62609 Bultman Pass', '972-713-5010', 'Koelpin-Bradtke', 'wsj.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('sbartens1b@ask.com', '6550 Valley Edge Point', '600-822-6942', 'Spencer-Fadel', 'tiny.cc')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('nletteresse1c@cafepress.com', '982 Bartillon Park', '499-913-3227', 'Bauch-Lakin', 'amazonaws.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into HEALTHINSTITUTION (email, address, phonenum, name, website) values ('twestwell1d@linkedin.com', '26557 Ridgeview Place', '767-289-1742', 'Crooks-Yundt', 'nytimes.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into CLINIC (email) values ('ghorrell0@imageshack.us')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('abondy1@google.pl')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('kstoves2@sohu.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('mszachniewicz3@spiegel.de')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('mdrury4@archive.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('mwelbeck5@wordpress.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('amoseby6@free.fr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('tgerald7@umn.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('vdoy8@acquirethisname.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('cwilsey9@nature.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('glarimera@cdbaby.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('rtrengrouseb@imgur.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('dplampinc@edublogs.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('ebugged@toplist.cz')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('mdelgardilloe@free.fr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('atornf@nih.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('thassang@friendfeed.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('hayrtonh@unblog.fr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('wjirasi@devhub.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('ktuerenaj@vinaora.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('tpeacherk@google.it')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('achasel@house.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('kchopym@ed.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('kjerremsn@amazonaws.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into CLINIC (email) values ('kgreensiteo@tamu.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into BIRTHINGCENTER (email) values ('jgoodierp@ameblo.jp')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('ndonanq@delicious.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('sfriesr@dropbox.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('tdownss@berkeley.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('vlevayt@plala.or.jp')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('hbroaderu@mail.ru')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('lmortlockv@theguardian.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('bdecortw@wsj.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('hcorkishx@craigslist.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('sbonsally@blinklist.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('earnalz@hostgator.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('ogiffard10@nydailynews.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('jwylie11@va.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('clord12@nba.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('gemor13@github.io')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('vpaling14@mac.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('fbratten15@vinaora.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('clegassick16@huffingtonpost.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('rhighman17@illinois.edu')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('kedland18@craigslist.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('chuxham19@infoseek.co.jp')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('rjorgesen1a@smugmug.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('sbartens1b@ask.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('nletteresse1c@cafepress.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BIRTHINGCENTER (email) values ('twestwell1d@linkedin.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (1, 'ghorrell0@imageshack.us', '535-904-7909', 'Schowalter-Grant', 'cseedman0@icq.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (2, 'ghorrell0@imageshack.us', '763-430-6279', 'Glover, Weissnat and Bergnaum', 'skennifick1@hc360.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (3, 'ghorrell0@imageshack.us', '293-321-5023', 'Zulauf Group', 'esurcomb2@ox.ac.uk')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (4, 'ghorrell0@imageshack.us', '636-965-5575', 'Kautzer Inc', 'bmoatt3@tripadvisor.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (5, 'ghorrell0@imageshack.us', '131-149-2535', 'O''Keefe and Sons', 'rmaddison4@pbs.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (6, 'ghorrell0@imageshack.us', '314-522-2917', 'Langosh, Sanford and Howell', 'hsirett5@senate.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (7, 'ghorrell0@imageshack.us', '235-865-0099', 'Orn-Kautzer', 'jmalt6@sohu.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (8, 'ghorrell0@imageshack.us', '532-559-1719', 'Hammes, Cartwright and Jones', 'cburree7@state.tx.us')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (9, 'ghorrell0@imageshack.us', '671-166-0195', 'Aufderhar-Fisher', 'rfiler8@cnet.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (10, 'ghorrell0@imageshack.us', '237-785-2269', 'Monahan, Bailey and Ziemann', 'rjeffray9@washingtonpost.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (11, 'clord12@nba.com', '791-788-2861', 'Wolf Group', 'rmaddamsa@engadget.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (12, 'clord12@nba.com', '758-916-5729', 'Adams, Oberbrunner and Gerhold', 'mfortenb@newyorker.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (13, 'clord12@nba.com', '468-972-1229', 'Wisoky, Wuckert and Corkery', 'mengelbrechtc@geocities.jp')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (14, 'clord12@nba.com', '169-160-2598', 'Stroman, Heller and Mann', 'vwurstd@redcross.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (15, 'clord12@nba.com', '962-152-3241', 'Tremblay Inc', 'asmarte@myspace.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (16, 'clord12@nba.com', '783-473-0608', 'VonRueden-Mayert', 'jbadseyf@disqus.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (17, 'clord12@nba.com', '975-668-6448', 'Kertzmann-Mertz', 'jwelburng@opensource.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (18, 'clord12@nba.com', '564-921-9870', 'Fisher, Borer and Renner', 'fhatth@adobe.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (19, 'clord12@nba.com', '765-928-6147', 'Harvey Group', 'pwhibleyi@yelp.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (20, 'clord12@nba.com', '895-497-4974', 'Nolan, Flatley and Kautzer', 'kginnj@ifeng.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (21, 'ebugged@toplist.cz', '409-645-9244', 'Kuhic, Haley and Crooks', 'jmanktelowk@reference.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (22, 'ebugged@toplist.cz', '239-147-8515', 'Altenwerth-Volkman', 'aisacssonl@delicious.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (23, 'ebugged@toplist.cz', '791-460-5486', 'Conn, Hansen and Graham', 'pabramm@stumbleupon.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (24, 'ebugged@toplist.cz', '601-321-0805', 'Price Inc', 'jjordinen@mozilla.org')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (25, 'ebugged@toplist.cz', '797-787-0446', 'Kiehn-Conroy', 'ppinwello@va.gov')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (26, 'ebugged@toplist.cz', '860-432-0895', 'Carroll Group', 'gloxlyp@google.fr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (27, 'ebugged@toplist.cz', '243-127-3117', 'Barton and Sons', 'lasserq@hibu.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (28, 'ebugged@toplist.cz', '710-203-9583', 'Abshire and Sons', 'mhaberghamr@cocolog-nifty.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (29, 'ebugged@toplist.cz', '536-952-5422', 'Hayes, Cole and Price', 'ggrews@walmart.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (30, 'ebugged@toplist.cz', '913-720-6844', 'Casper-VonRueden', 'ysmutht@narod.ru')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (31, 'ebugged@toplist.cz', '514-000-000', 'Marion Girard', 'mariongirard@gmail.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MIDWIFE (practitionerID, hemail, phonenum, name, email) values (32, 'vpaling14@mac.com', '514-000-0001', 'Lac-Saint-Louis', 'lsl@gmail.com')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('1', 'A', '816-547-0672', 'Electrical Engineer', 'jbealton0@miitbeian.gov.cn', '2021-02-21', '09476 Graedel Crossing', 'Joyann')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('2', 'A', '686-230-7351', 'Junior Executive', 'iouthwaite1@google.com.br', '2021-10-08', '04 Manufacturers Terrace', 'Ilka')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('3', 'A', '560-119-5798', 'Librarian', 'ksaynor2@lycos.com', '2022-02-05', '3 Carey Terrace', 'Konstanze')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('4', 'A', '462-219-6707', 'Desktop Support Technician', 'mminster3@google.it', '2021-09-11', '50237 Toban Park', 'Millicent')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('5', 'A', '824-389-8132', 'Human Resources Manager', 'ssilver4@sciencedaily.com', '2021-11-07', '704 Waywood Park', 'Shel')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('6', 'A', '684-669-8635', 'Geological Engineer', 'bgreatbanks5@shop-pro.jp', '2021-08-10', '5841 Vernon Terrace', 'Brita')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('7', 'A', '503-880-2068', 'Biostatistician IV', 'scullity6@illinois.edu', '2022-01-18', '87 Waxwing Avenue', 'Siusan')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('8', 'A', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('9', 'A', '646-790-3026', 'Project Manager', 'ecorris8@independent.co.uk', '2021-12-29', '15657 Grover Way', 'Emmi')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('10', 'A', '997-784-4643', 'General Manager', 'uwinterborne9@intel.com', '2022-02-11', '96 Mccormick Circle', 'Ulrica')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('11', 'B', '669-163-6085', 'Data Coordiator', 'jloyndona@canalblog.com', '2021-10-30', '4503 Portage Avenue', 'Janeczka')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('12', 'B', '638-919-5828', 'Data Coordiator', 'porriceb@xing.com', '2021-10-28', '87744 Onsgard Street', 'Prue')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('13', 'B', '679-444-4454', 'Software Engineer II', 'naustickc@cafepress.com', '2021-06-20', '8 Northport Alley', 'Ninnetta')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('14', 'B', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('15', 'B', '544-389-6027', 'Nurse', 'vkelingee@lulu.com', '2021-12-10', '00533 Rockefeller Court', 'Viviyan')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('16', 'B', '922-632-2500', 'Marketing Manager', 'tweedf@gov.uk', '2022-01-28', '5 Shopko Street', 'Theodosia')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('17', 'B', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('18', 'B', '906-883-0175', 'Internal Auditor', 'frockinghamh@adobe.com', '2021-10-02', '2622 Fulton Drive', 'Faustina')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('19', 'B', '414-217-2282', 'Budget/Accounting Analyst II', 'dkillei@ca.gov', '2021-07-08', '82329 Arizona Crossing', 'Dulciana')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('20', 'B', '778-228-0067', 'Developer IV', 'mwilflingerj@salon.com', '2021-10-15', '239 Chinook Parkway', 'Maure')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('21', 'AB', '895-368-3258', 'Physical Therapy Assistant', 'psonesk@elegantthemes.com', '2021-10-06', '40585 Merry Crossing', 'Pattie')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('22', 'AB', '626-685-0630', 'Electrical Engineer', 'ajosilowskil@jugem.jp', '2021-03-03', '62 Schlimgen Junction', 'Alberta')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('23', 'AB', '764-781-4104', 'Marketing Manager', 'tswindonm@wisc.edu', '2021-10-01', '4 Oxford Crossing', 'Tera')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('24', 'AB', '973-622-1709', 'Research Nurse', 'cbrickhamn@wisc.edu', '2021-06-01', '21 Prairieview Court', 'Christa')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('25', 'AB', '904-303-0968', 'Community Outreach Specialist', 'mruffleso@chron.com', '2021-12-17', '45121 Northland Place', 'Merry')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('26', 'O', '487-403-3014', 'Actuary', 'mperelp@paypal.com', '2021-07-25', '07012 Hudson Hill', 'Marcela')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('27', 'O', '935-353-6017', 'Sales Associate', 'lmockettq@usa.gov', '2021-10-23', '0 Burning Wood Parkway', 'Lucia')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('28', 'O', '624-352-6536', 'Health Coach I', 'jeglingtonr@ehow.com', '2021-05-17', '753 Fallview Avenue', 'Joelynn')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('29', 'O', '268-995-4425', 'Data Coordiator', 'aslymes@wisc.edu', '2021-05-19', '8 Texas Park', 'Anny')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('30', 'O', '717-128-9145', 'Professor', 'kgladert@addtoany.com', '2021-03-24', '2135 Boyd Point', 'Klarrisa')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('31', '0', '514-000-0000', 'Doctor', 'vicgut@htomail.com', '1950-01-01', '123 John street', 'Victoria Gutierrez')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('32', 'A', '514-999-9999', 'Doctor', 'mom@gmail.com', null, null, 'Linda')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MOTHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('33', 'A', '514-888-8888', 'Doctor', 'mom2@gmail.com', null, null, 'Chantal')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('31', 'A', '334-246-6505', 'Financial Advisor', 'cpfaffu@macromedia.com', '2021-04-27', '37 Arapahoe Terrace', 'Cullie')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('32', 'A', '682-151-3163', 'Automation Specialist I', 'bgilluleyv@cloudflare.com', '2021-08-11', '3606 Clemons Lane', 'Burton')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('33', 'A', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('34', 'A', '832-117-6821', 'Chief Design Engineer', 'bbourgetx@hc360.com', '2021-09-18', '6 Bayside Place', 'Brucie')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('35', 'A', '665-449-4255', 'Software Engineer IV', 'gseppeyy@altervista.org', '2021-06-03', '30 Hanover Plaza', 'Gilles')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('36', 'A', '319-385-5484', 'Help Desk Operator', 'ptesmondz@bigcartel.com', '2021-03-16', '25217 Donald Alley', 'Piotr')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('37', 'A', '506-761-6906', 'GIS Technical Architect', 'tperassi10@twitter.com', '2021-06-03', '7 Independence Avenue', 'Tabb')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('38', 'A', '562-526-4656', 'Financial Advisor', 'fbirtles11@thetimes.co.uk', '2021-03-29', '947 Bobwhite Circle', 'Franklin')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('39', 'A', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('40', 'A', '258-748-8194', 'Geological Engineer', 'whatcliffe13@nsw.gov.au', '2021-08-04', '763 Laurel Court', 'Wolfie')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('41', 'B', '976-480-1195', 'Assistant Media Planner', 'lbroadstock14@cpanel.net', '2021-07-01', '705 Saint Paul Pass', 'Leonhard')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('42', 'B', '122-406-5478', 'Clinical Specialist', 'apengilley15@wikia.com', '2021-12-25', '64839 Lakewood Circle', 'Allan')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('43', 'B', '639-743-0282', 'VP Sales', 'dtoderi16@pbs.org', '2021-12-25', '15 Pepper Wood Drive', 'Devlen')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('44', 'B', '278-785-5087', 'Payment Adjustment Coordinator', 'serwin17@cargocollective.com', '2021-05-28', '32726 Ruskin Way', 'Skell')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('45', 'B', '657-499-1224', 'Community Outreach Specialist', 'mpendreigh18@nytimes.com', '2021-05-24', '5 Crowley Point', 'Maynard')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('46', 'B', '991-739-6345', 'Compensation Analyst', 'gmoreland19@craigslist.org', '2021-12-13', '6598 Chive Avenue', 'Guy')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('47', 'B', '826-819-9588', 'VP Accounting', 'eanetts1a@bing.com', '2022-01-13', '7719 Forster Crossing', 'Eamon')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('48', 'B', '187-732-6690', 'Staff Accountant III', 'tpeasgood1b@amazon.de', '2021-03-27', '9 Southridge Road', 'Thor')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('49', 'B', '424-446-5229', 'Director of Sales', 'cpetschel1c@scribd.com', '2021-05-29', '8 Grim Hill', 'Charlton')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('50', 'B', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('51', 'AB', '320-148-4722', 'Nuclear Power Engineer', 'rsimoncelli1e@spiegel.de', '2021-04-28', '176 Arrowood Avenue', 'Rick')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('52', 'AB', '810-173-7686', 'Staff Scientist', 'fjansema1f@virginia.edu', '2021-06-03', '8 Anderson Park', 'Felike')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('53', 'AB', '704-952-1014', 'Quality Engineer', 'dhowes1g@about.com', '2021-12-02', '505 Thierer Terrace', 'Davy')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('54', 'AB', '447-721-1678', 'Payment Adjustment Coordinator', 'folivo1h@macromedia.com', '2021-10-27', '55 Fallview Crossing', 'Flynn')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('55', 'AB', '985-749-3375', 'Human Resources Assistant II', 'zgarric1i@ycombinator.com', '2022-01-14', '5246 Katie Way', 'Zebadiah')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('56', 'O', '122-562-5941', 'Clinical Specialist', 'mdumingo1j@sciencedaily.com', '2021-02-23', '18 Bultman Parkway', 'Mallory')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('57', 'O', '942-129-0673', 'Paralegal', 'akemston1k@ox.ac.uk', '2021-12-18', '35721 Prentice Junction', 'Aguste')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('58', 'O', '177-378-7944', 'Professor', 'rmortel1l@indiegogo.com', '2022-02-12', '3659 Main Drive', 'Rollins')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('59', 'O', null, null, null, null, null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into  FATHER (ramqID, bloodtype, phonenum, profession, email, birthday, address, name) values ('60', 'O', '513-109-7356', 'Geologist IV', 'sdegregario1n@shutterfly.com', '2022-02-14', '3994 Darwin Terrace', 'Stevy')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into COUPLE (coupleID, motherramqID) values (1, '8')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (2, '3')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (3, '4')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (4, '5')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (5, '6')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (6, '1')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (7, '30')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (8, '8')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (9, '4')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (10, '19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (11, '10')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (12, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (13, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (14, '15')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (15, '19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (16, '18')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (17, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (18, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (19, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (20, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (21, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (22, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (23, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (24, '21')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (25, '18')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (26, '31')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (27, '32')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLE (coupleID, motherramqID) values (28, '33')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (1, '8')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (2, '3')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (3, '4')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (4, '5')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (5, '6')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (6, '1')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (7, '30')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (8, '8')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (9, '4')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (10, '19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (11, '10')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (12, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (13, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (14, '15')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (15, '19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (16, '18')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (17, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (18, '13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (19, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (20, '12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (21, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (22, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (23, '22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (24, '21')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (25, '18')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEMOTHER (coupleID, ramqID) values (26, '31')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into COUPLEFATHER (coupleID, ramqID) values (1, '38')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (2, '33')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (3, '34')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (4, '35')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (5, '36')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (7, '40')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (8, '48')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (9, '44')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (10, '49')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (11, '50')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (12, '53')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (13, '59')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (14, '55')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (15, '39')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (16, '58')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (17, '52')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (18, '43')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (19, '42')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (21, '32')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into COUPLEFATHER (coupleID, ramqID) values (24, '31')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (1, 3, 1, '2021-07-17', '2021-12-09', 'clord12@nba.com', '95781 Thompson Park', '2022-01-04')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (2, 3, 2, '2021-07-09', '2021-12-13', 'clord12@nba.com', '12 Carioca Trail', '2021-08-09')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (3, 1, 3, '2021-09-14', '2021-04-18', 'clord12@nba.com', '9 Shoshone Court', '2021-03-10')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (4, 10, 4, '2021-07-02', '2021-05-01', 'clord12@nba.com', '73282 Melody Hill', '2021-08-09')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (5, 16, 5, '2021-03-16', '2021-05-26', 'clord12@nba.com', '1571 Schurz Pass', '2022-01-19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (6, 6, 6, '2021-03-30', '2022-02-11', 'clord12@nba.com', '46 Lotheville Avenue', '2021-04-26')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (7, 2, 7, '2021-06-17', '2021-06-08', 'clord12@nba.com', '54765 Talmadge Avenue', '2022-07-03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (8, 9, 8, '2021-03-03', '2021-04-07', 'clord12@nba.com', '9 Pankratz Junction', '2022-07-09')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (9, 4, 9, '2021-10-06', '2021-09-04', 'clord12@nba.com', '2922 Mallard Parkway', '2022-01-21')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (10, 20, 10, '2021-05-25', '2021-08-10', 'sbonsally@blinklist.com', '388 Waubesa Park', '2021-05-25')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (11, 21, 11, '2021-03-23', '2021-12-28', 'sbonsally@blinklist.com', '89 Myrtle Way', '2021-05-01')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (12, 11, 12, '2021-10-25', '2021-12-30', 'sbonsally@blinklist.com', '84591 Bowman Lane', '2022-01-04')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (13, 12, 13, '2021-10-11', '2021-12-28', 'sbonsally@blinklist.com', '301 Hauk Junction', '2021-04-15')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (14, 19, 14, '2021-06-15', '2021-04-27', 'hbroaderu@mail.ru', '3984 Pierstorff Drive', '2021-05-12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (15, 25, 15, '2021-11-07', '2021-04-23', 'hbroaderu@mail.ru', '876 Kropf Plaza', '2021-02-19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (16, 23, 16, '2021-04-26', '2021-05-11', 'hbroaderu@mail.ru', '6341 Thierer Point', '2022-07-22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (17, 22, 17, '2021-04-23', '2021-11-12', 'hbroaderu@mail.ru', '80 Hanson Plaza', '2021-03-14')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (18, 17, 18, '2021-09-26', '2022-01-21', 'hbroaderu@mail.ru', '2569 Mayer Crossing', '2021-03-27')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (19, 26, 19, '2021-09-26', '2022-01-21', 'hbroaderu@mail.ru', '2569 Mayer Crossing', '2020-03-03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (20, 26, 20, '2021-09-26', '2022-01-21', 'hbroaderu@mail.ru', '2569 Mayer Crossing', '2022-03-03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (21, 27, 32, null, null, null, null, '2023-01-01')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into PREGNANCY (pregnancyID, coupleID, midwifeID, lastmenperiodd, ultrasounddd, bcemail, birthloc, expecteddd) values (22, 28, 10, null, null, null, null, '2021-01-01')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (1, 1, 'Norwegian', '2021-07-06 12:19:56')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (2, 2, 'Dutch', '2021-09-26 17:30:06')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (3, 3, null, '2021-09-17 08:53:12')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (4, 4, 'Zulu', '2022-02-02 22:15:10')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (5, 5, 'Dutch', '2021-03-12 16:50:13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (6, 6, 'Dari', '2021-07-21 20:04:26')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (7, 7, 'Malayalam', '2021-07-11 10:34:23')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (8, 8, 'Sotho', '2021-04-01 11:25:37')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (9, 9, 'Dzongkha', '2021-03-13 05:17:48')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (10, 10, 'Haitian Creole', '2021-05-30 22:31:06')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (11, 11, 'Portuguese', '2021-05-09 11:58:06')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (12, 12, 'Kannada', '2021-06-14 07:39:27')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (13, 13, 'Dzongkha', '2021-06-21 17:04:22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (14, 14, 'Tamil', '2021-05-19 11:40:56')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (15, 15, 'Amharic', '2021-02-21 09:26:01')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (16, 16, 'Pashto', '2022-01-30 18:32:22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (17, 17, 'Hungarian', '2021-08-15 00:48:00')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (18, 18, 'Kazakh', '2021-10-10 14:56:14')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (19, 19, 'Quechua', '2021-04-11 14:29:13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (20, 20, 'Luxembourgish', '2021-10-07 19:56:59')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (21, 21, 'Assamese', '2021-05-16 06:58:06')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (22, 22, 'Arabic', '2021-12-11 10:45:38')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (23, 23, 'Hindi', '2022-01-12 16:12:51')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (24, 24, 'Swedish', '2022-02-11 02:17:32')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (25, 25, 'Fijian', '2021-11-27 16:46:43')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (26, 26, 'Swahili', '2021-08-21 01:59:46')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (27, 27, 'Italian', '2021-04-07 06:11:31')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (28, 28, 'Sotho', '2021-09-11 20:26:57')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (29, 29, 'Zulu', '2021-08-21 19:23:53')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into ONLINEINFOSESSION (sessionID, midwifeID, language, sessiontime) values (30, 30, 'French', '2021-06-03 15:22:44')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (1, 1)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (2, 2)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (3, 3)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (4, 4)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (5, 5)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (6, 6)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (7, 7)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (8, 8)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (9, 9)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (10, 10)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (11, 11)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (12, 12)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (13, 13)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (14, 14)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (15, 15)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (16, 16)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (17, 17)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MAINMIDWIFE (pregnancyID, midwifeID) values (18, 31)
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (1, 11)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (2, 12)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (3, 13)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (4, 14)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (5, 15)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (6, 16)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (7, 17)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (8, 18)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (9, 19)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (10, 20)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (11, 21)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (12, 22)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (13, 23)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (14, 24)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (15, 25)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (16, 26)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (17, 27)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BACKUPMIDWIFE (pregnancyID, midwifeID) values (18, 28)
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (1, 1)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (2, 2)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (3, 3)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (4, 4)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (5, 5)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (6, 6)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (7, 7)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (8, 8)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (9, 9)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (10, 10)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (11, 11)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (12, 12)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (13, 13)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (14, 14)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (15, 15)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (16, 16)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (17, 17)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (18, 18)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (19, 19)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into INFOSESSIONATTENDANCE (coupleID, sessionID) values (20, 20)
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (1, 1, 1, '2021-11-16 21:36:40')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (2, 2, 2, '2021-07-21 18:52:01')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (3, 3, 3, '2021-04-23 08:36:55')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (4, 4, 4, '2021-03-19 07:17:43')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (5, 5, 5, '2021-09-21 21:24:44')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (6, 6, 6, '2021-03-03 04:49:03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (7, 7, 7, '2021-05-25 19:36:30')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (8, 8, 8, '2021-07-01 14:04:17')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (9, 9, 9, '2021-10-23 02:07:27')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (10, 10, 10, '2021-03-31 13:39:44')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (11, 11, 11, '2021-03-20 11:10:04')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (12, 12, 12, '2021-06-13 12:14:19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (13, 13, 13, '2021-04-28 03:12:04')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (14, 14, 14, '2021-03-24 15:37:06')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (15, 15, 15, '2021-09-17 20:50:20')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (16, 16, 16, '2022-01-09 02:36:24')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (17, 17, 17, '2021-08-17 13:36:49')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (18, 31, 18, '2022-03-22 17:57:03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (19, 31, 19, '2020-03-02 17:57:03')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (20, 31, 20, '2020-03-02 17:57:03')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (1, 1, '2021-05-29 22:36:19')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (2, 2, '2022-02-15 19:35:18')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (3, 3, '2021-03-24 06:27:28')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (4, 4, '2022-02-16 10:36:08')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (5, 5, '2021-05-11 06:00:22')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (6, 6, '2022-02-07 11:05:42')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (7, 7, '2021-06-28 01:17:20')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (8, 8, '2021-06-12 12:46:24')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (9, 9, '2021-12-13 06:00:13')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (10, 10, '2021-08-16 11:54:14')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (1, 1, false, 1, '2020-01-09', '2022-01-11', '45 Arkansas Hill', '2021-10-17', '8ncXJGy8HadZLH3UVmaMSX07z7x2EZL', 'pUkrCx06f8Sze204Glwqdijedam8Rmm')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (2, 2, true, 2, '2020-09-03', '2021-03-26', '08553 Carpenter Trail', '2021-04-29', '1E06DLAxu5hVljiO4BNuTbOQDl4xiA6', 'oNcjp9BeNIPExeIqr62oVi5Z3HRcdPN')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (3, 3, false, 3, '2020-07-15', '2021-08-01', '30 Miller Court', '2021-12-18', 'z5HrMj1AhHG9lILZq8NCdNGyj4coOYU', 'wZPs6BMFcx3UKCvK2tNnWYAYhJNST45')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (4, 4, false, 4, '2020-08-22', '2021-12-16', '8419 Dawn Street', '2021-03-07', 'u5L7n0fabTCkPLro5Q88v7ooRdF3pwh', 'I9vbM2rEHcPEysZ8klHx6P2pk8zGfZ8')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (5, 5, true, 5, '2020-04-10', '2021-12-11', '5509 Bluestem Drive', '2021-06-02', '8gfJa9jNVSfxAkyOcbXApqSZf7tz5AA', 'TFbzbZ13nMhuLx5qj0X6SzwyQsrgB0J')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (6, 6, false, 6, '2020-11-10', '2021-12-15', '692 Jenna Drive', '2021-02-20', 'Izbn8AljnQsOerYOe3v6AAwcYk56BLN', 'P4Hm984bNlueShsYW6KANmdkNaYmv20')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (7, 7, true, 7, '2020-12-07', '2021-04-14', '294 Truax Way', '2022-01-23', 'LnkhMfIPVy95P3Hn6ZuIgVVVuIWWCra', 'jsgP20Bpxvr6gq44zmXIgaDUpXrRtXM')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (8, 8, false, 8, '2020-05-01', '2021-09-26', '12 Northview Circle', '2021-07-12', 'CDlhQaagFgyMR1iKfLIFEvcUI72MULL', 'gQqnhvgQZXqZQZPy5G55bmYybCLHd7j')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (9, 9, true, 9, '2020-10-23', '2021-09-28', '04136 Bay Park', '2022-01-11', 'VHaUh4cmxiheIq7zF7jqfefe1NSq0aG', 'ZgWEjkAI4qUE8zxpjXHI4fLc91gXgSL')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (10, 10, true, 10, '2020-09-26', '2021-03-22', '75 Di Loreto Hill', '2021-08-12', 'AdiBMBRYEHGOMIFQJQz8k11NPrAAgL2', 'FshqtwQzbsn2ZPZiNFVtWdQtpNSYlZf')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into MEDICALTEST (testID, appointmentID, forbaby, individualID, prescribeddate, sampleddate, location, labdate, testresult, testtype) values (11, 19, false, 26, '2020-09-26', '2021-03-22', null, '2021-01-01', 'normal iron', 'blood iron')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into TECHNICIAN (techID, name, phonenum) values (1, 'Ginnifer', '335-873-5679')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (2, 'Susie', '974-517-0096')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (3, 'Francesca', '146-636-3551')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (4, 'Ernesto', '520-999-7383')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (5, 'Nehemiah', '743-617-0487')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (6, 'Aveline', '913-131-6193')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (7, 'Emmaline', '614-815-4357')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (8, 'Pietra', '687-894-5339')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (9, 'Dionysus', '669-536-4009')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (10, 'Ashlee', '207-870-8367')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (11, 'Jacinthe', '137-276-5672')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (12, 'Dicky', '584-127-5535')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (13, 'Jammal', '563-451-0629')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (14, 'Hyacinthe', '341-527-6356')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHNICIAN (techID, name, phonenum) values (15, 'Allegra', '771-286-2322')
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into TECHINCHARGE (techID, testID) values (1, 1)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHINCHARGE (techID, testID) values (2, 2)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHINCHARGE (techID, testID) values (3, 3)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHINCHARGE (techID, testID) values (4, 4)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into TECHINCHARGE (techID, testID) values (5, 5)
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (1, 1, 'Male', '3', '2021-08-09', 'Tedd')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (2, 2, 'Female', '0', null, 'Joana')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (3, 3, 'Genderqueer', '0', '2021-07-15', 'Justen')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (4, 4, 'Female', '1', null, 'Alain')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (5, 5, 'Male', '0', null, 'Wernher')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (6, 6, 'Female', '6', null, null)
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (7, 7, 'Male', '2', null, 'Theodoric')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (8, 8, 'Female', '9', null, 'York')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (9, 9, 'Female', '2', null, 'Shelley')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (10, 10, 'Male', '7', '2021-11-04', 'Roldan')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (11, 22, 'Male', '7', '2021-11-04', 'Roldan')
+DB20000I  The SQL command completed successfully.
+
+db2 => insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (12, 22, 'Male', '7', '2021-11-04', 'Justin')
+DB20000I  The SQL command completed successfully.
+
+db2 => 

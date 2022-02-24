@@ -1,0 +1,90 @@
+(c) Copyright IBM Corporation 1993,2007
+Command Line Processor for DB2 Client 11.5.4.0
+
+You can issue database manager commands and SQL statements from the command 
+prompt. For example:
+    db2 => connect to sample
+    db2 => bind sample.bnd
+
+For general help, type: ?.
+For command help, type: ? command, where command can be
+the first few keywords of a database manager command. For example:
+ ? CATALOG DATABASE for help on the CATALOG DATABASE command
+ ? CATALOG          for help on all of the CATALOG commands.
+
+To exit db2 interactive mode, type QUIT at the command prompt. Outside 
+interactive mode, all commands must be prefixed with 'db2'.
+To list the current command option settings, type LIST COMMAND OPTIONS.
+
+For more detailed help, refer to the Online Reference Manual.
+
+db2 => db2 => db2 => db2 => db2 => CONNECT TO cs421
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.4.0
+ SQL authorization ID   = SWANG298
+ Local database alias   = CS421
+
+
+db2 => db2 => db2 => db2 => db2 => db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE HEALTHINSTITUTION ( email varchar(128) NOT NULL, address varchar(128), phonenum varchar(128), name varchar(128), website varchar(128), PRIMARY KEY (email) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE CLINIC ( email varchar(128) NOT NULL, PRIMARY KEY (email), FOREIGN KEY (email) REFERENCES HEALTHINSTITUTION(email) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE BIRTHINGCENTER ( email varchar(128) NOT NULL, PRIMARY KEY (email), FOREIGN KEY (email) REFERENCES HEALTHINSTITUTION(email) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE MIDWIFE ( practitionerID int NOT NULL, hemail varchar(128) NOT NULL, phonenum varchar(128), name varchar(128), email varchar(128), PRIMARY KEY (practitionerID), FOREIGN KEY (hemail) REFERENCES HEALTHINSTITUTION(email) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE MOTHER ( ramqID varchar(128) NOT NULL, bloodtype varchar(16), phonenum varchar(128), profession varchar(128), email varchar(128), birthday DATE, address varchar(128), name varchar(128), PRIMARY KEY (ramqID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE FATHER ( ramqID varchar(128) NOT NULL, bloodtype varchar(16), phonenum varchar(128), profession varchar(128), email varchar(128), birthday DATE, address varchar(128), name varchar(128), PRIMARY KEY (ramqID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE COUPLE ( coupleID int NOT NULL, motherramqID varchar(128) NOT NULL, PRIMARY KEY (coupleID), FOREIGN KEY (motherramqID) REFERENCES MOTHER(ramqID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE COUPLEMOTHER ( ramqID varchar(128) NOT NULL, coupleID int NOT NULL, PRIMARY KEY (ramqID, coupleID), FOREIGN KEY (ramqID) REFERENCES MOTHER(ramqID), FOREIGN KEY (coupleID) REFERENCES COUPLE(coupleID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE COUPLEFATHER ( ramqID varchar(128) NOT NULL, coupleID int NOT NULL, PRIMARY KEY (ramqID, coupleID), FOREIGN KEY (ramqID) REFERENCES FATHER(ramqID), FOREIGN KEY (coupleID) REFERENCES COUPLE(coupleID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE PREGNANCY ( pregnancyID int NOT NULL, coupleID int NOT NULL, midwifeID int NOT NULL, lastmenperiodd DATE, ultrasounddd DATE, bcemail varchar(128), birthloc varchar(128), expecteddd DATE, PRIMARY KEY (pregnancyID), FOREIGN KEY (coupleID) REFERENCES COUPLE(coupleID), FOREIGN KEY (midwifeID) REFERENCES MIDWIFE(practitionerID), FOREIGN KEY (bcemail) REFERENCES BIRTHINGCENTER(email) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE ONLINEINFOSESSION ( sessionID int NOT NULL, midwifeID int NOT NULL, language varchar(128), sessiontime DATETIME, PRIMARY KEY (sessionID), FOREIGN KEY (midwifeID) REFERENCES MIDWIFE(practitionerID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE MAINMIDWIFE ( pregnancyID int NOT NULL, midwifeID int NOT NULL, FOREIGN KEY (pregnancyID) REFERENCES PREGNANCY(pregnancyID), FOREIGN KEY (midwifeID) REFERENCES MIDWIFE(practitionerID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE BACKUPMIDWIFE ( pregnancyID int NOT NULL, midwifeID int NOT NULL, FOREIGN KEY (pregnancyID) REFERENCES PREGNANCY(pregnancyID), FOREIGN KEY (midwifeID) REFERENCES MIDWIFE(practitionerID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE INFOSESSIONATTENDANCE ( coupleID int NOT NULL, sessionID int NOT NULL, FOREIGN KEY (coupleID) REFERENCES COUPLE(coupleID), FOREIGN KEY (sessionID) REFERENCES ONLINEINFOSESSION(sessionID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE APPOINTMENT ( appointmentID int NOT NULL, midwifeID int NOT NULL, pregnancyID int NOT NULL, appointmenttime DATETIME, PRIMARY KEY (appointmentID), FOREIGN KEY (midwifeID) REFERENCES MIDWIFE(practitionerID), FOREIGN KEY (pregnancyID) REFERENCES PREGNANCY(pregnancyID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE OBSERVATIONNOTE ( noteID int NOT NULL, appointmentID int NOT NULL, notetime DATETIME, PRIMARY KEY (noteID), FOREIGN KEY (appointmentID) REFERENCES APPOINTMENT(appointmentID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE MEDICALTEST ( testID int NOT NULL, appointmentID int NOT NULL, forbaby boolean NOT NULL, individualID int NOT NULL, prescribeddate DATE, sampleddate DATE, location varchar(128), labdate DATE, testresult varchar(128), testtype varchar(128), PRIMARY KEY (testID), FOREIGN KEY (appointmentID) REFERENCES APPOINTMENT(appointmentID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE TECHNICIAN ( techID int NOT NULL, name varchar(128), phonenum varchar(128), PRIMARY KEY (techID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE TECHINCHARGE ( techID int NOT NULL, testID int NOT NULL, FOREIGN KEY (techID) REFERENCES TECHNICIAN(techID), FOREIGN KEY (testID) REFERENCES MEDICALTEST(testID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => db2 => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => db2 (cont.) => CREATE TABLE BABY ( babyID int NOT NULL, pregnancyID int NOT NULL, gender varchar(128), bloodtype varchar(8), birthday DATE, name varchar(128), PRIMARY KEY (babyID), FOREIGN KEY (pregnancyID) REFERENCES PREGNANCY(pregnancyID) )
+DB20000I  The SQL command completed successfully.
+
+db2 => 
