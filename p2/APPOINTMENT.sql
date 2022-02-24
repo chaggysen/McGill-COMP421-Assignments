@@ -1,0 +1,19 @@
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (1, 1, 1, '2021-11-16 21:36:40');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (2, 2, 2, '2021-07-21 18:52:01');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (3, 3, 3, '2021-04-23 08:36:55');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (4, 4, 4, '2021-03-19 07:17:43');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (5, 5, 5, '2021-09-21 21:24:44');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (6, 6, 6, '2021-03-03 04:49:03');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (7, 7, 7, '2021-05-25 19:36:30');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (8, 8, 8, '2021-07-01 14:04:17');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (9, 9, 9, '2021-10-23 02:07:27');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (10, 10, 10, '2021-03-31 13:39:44');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (11, 11, 11, '2021-03-20 11:10:04');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (12, 12, 12, '2021-06-13 12:14:19');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (13, 13, 13, '2021-04-28 03:12:04');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (14, 14, 14, '2021-03-24 15:37:06');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (15, 15, 15, '2021-09-17 20:50:20');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (16, 16, 16, '2022-01-09 02:36:24');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (17, 17, 17, '2021-08-17 13:36:49');
+insert into APPOINTMENT (appointmentID, midwifeID, pregnancyID, appointmenttime) values (18, 18, 18, '2021-04-15 17:57:03');
+

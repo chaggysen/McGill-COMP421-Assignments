@@ -1,0 +1,54 @@
+insert into CLINIC (email) values ('ghorrell0@imageshack.us');
+insert into CLINIC (email) values ('abondy1@google.pl');
+insert into CLINIC (email) values ('kstoves2@sohu.com');
+insert into CLINIC (email) values ('mszachniewicz3@spiegel.de');
+insert into CLINIC (email) values ('mdrury4@archive.org');
+insert into CLINIC (email) values ('mwelbeck5@wordpress.org');
+insert into CLINIC (email) values ('amoseby6@free.fr');
+insert into CLINIC (email) values ('tgerald7@umn.edu');
+insert into CLINIC (email) values ('vdoy8@acquirethisname.com');
+insert into CLINIC (email) values ('cwilsey9@nature.com');
+insert into CLINIC (email) values ('glarimera@cdbaby.com');
+insert into CLINIC (email) values ('rtrengrouseb@imgur.com');
+insert into CLINIC (email) values ('dplampinc@edublogs.org');
+insert into CLINIC (email) values ('ebugged@toplist.cz');
+insert into CLINIC (email) values ('mdelgardilloe@free.fr');
+insert into CLINIC (email) values ('atornf@nih.gov');
+insert into CLINIC (email) values ('thassang@friendfeed.com');
+insert into CLINIC (email) values ('hayrtonh@unblog.fr');
+insert into CLINIC (email) values ('wjirasi@devhub.com');
+insert into CLINIC (email) values ('ktuerenaj@vinaora.com');
+insert into CLINIC (email) values ('tpeacherk@google.it');
+insert into CLINIC (email) values ('achasel@house.gov');
+insert into CLINIC (email) values ('kchopym@ed.gov');
+insert into CLINIC (email) values ('kjerremsn@amazonaws.com');
+insert into CLINIC (email) values ('kgreensiteo@tamu.edu');
+
+
+
+
+insert into BIRTHINGCENTER (email) values ('jgoodierp@ameblo.jp');
+insert into BIRTHINGCENTER (email) values ('ndonanq@delicious.com');
+insert into BIRTHINGCENTER (email) values ('sfriesr@dropbox.com');
+insert into BIRTHINGCENTER (email) values ('tdownss@berkeley.edu');
+insert into BIRTHINGCENTER (email) values ('vlevayt@plala.or.jp');
+insert into BIRTHINGCENTER (email) values ('hbroaderu@mail.ru');
+insert into BIRTHINGCENTER (email) values ('lmortlockv@theguardian.com');
+insert into BIRTHINGCENTER (email) values ('bdecortw@wsj.com');
+insert into BIRTHINGCENTER (email) values ('hcorkishx@craigslist.org');
+insert into BIRTHINGCENTER (email) values ('sbonsally@blinklist.com');
+insert into BIRTHINGCENTER (email) values ('earnalz@hostgator.com');
+insert into BIRTHINGCENTER (email) values ('ogiffard10@nydailynews.com');
+insert into BIRTHINGCENTER (email) values ('jwylie11@va.gov');
+insert into BIRTHINGCENTER (email) values ('clord12@nba.com');
+insert into BIRTHINGCENTER (email) values ('gemor13@github.io');
+insert into BIRTHINGCENTER (email) values ('vpaling14@mac.com');
+insert into BIRTHINGCENTER (email) values ('fbratten15@vinaora.com');
+insert into BIRTHINGCENTER (email) values ('clegassick16@huffingtonpost.com');
+insert into BIRTHINGCENTER (email) values ('rhighman17@illinois.edu');
+insert into BIRTHINGCENTER (email) values ('kedland18@craigslist.org');
+insert into BIRTHINGCENTER (email) values ('chuxham19@infoseek.co.jp');
+insert into BIRTHINGCENTER (email) values ('rjorgesen1a@smugmug.com');
+insert into BIRTHINGCENTER (email) values ('sbartens1b@ask.com');
+insert into BIRTHINGCENTER (email) values ('nletteresse1c@cafepress.com');
+insert into BIRTHINGCENTER (email) values ('twestwell1d@linkedin.com');

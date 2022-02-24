@@ -1,0 +1,10 @@
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (1, 1, '2021-05-29 22:36:19');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (2, 2, '2022-02-15 19:35:18');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (3, 3, '2021-03-24 06:27:28');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (4, 4, '2022-02-16 10:36:08');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (5, 5, '2021-05-11 06:00:22');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (6, 6, '2022-02-07 11:05:42');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (7, 7, '2021-06-28 01:17:20');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (8, 8, '2021-06-12 12:46:24');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (9, 9, '2021-12-13 06:00:13');
+insert into OBSERVATIONNOTE (noteID, appointmentID, notetime) values (10, 10, '2021-08-16 11:54:14');

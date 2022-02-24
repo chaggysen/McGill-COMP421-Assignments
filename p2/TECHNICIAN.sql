@@ -1,0 +1,15 @@
+insert into TECHNICIAN (techID, name, phonenum) values (1, 'Ginnifer', '335-873-5679');
+insert into TECHNICIAN (techID, name, phonenum) values (2, 'Susie', '974-517-0096');
+insert into TECHNICIAN (techID, name, phonenum) values (3, 'Francesca', '146-636-3551');
+insert into TECHNICIAN (techID, name, phonenum) values (4, 'Ernesto', '520-999-7383');
+insert into TECHNICIAN (techID, name, phonenum) values (5, 'Nehemiah', '743-617-0487');
+insert into TECHNICIAN (techID, name, phonenum) values (6, 'Aveline', '913-131-6193');
+insert into TECHNICIAN (techID, name, phonenum) values (7, 'Emmaline', '614-815-4357');
+insert into TECHNICIAN (techID, name, phonenum) values (8, 'Pietra', '687-894-5339');
+insert into TECHNICIAN (techID, name, phonenum) values (9, 'Dionysus', '669-536-4009');
+insert into TECHNICIAN (techID, name, phonenum) values (10, 'Ashlee', '207-870-8367');
+insert into TECHNICIAN (techID, name, phonenum) values (11, 'Jacinthe', '137-276-5672');
+insert into TECHNICIAN (techID, name, phonenum) values (12, 'Dicky', '584-127-5535');
+insert into TECHNICIAN (techID, name, phonenum) values (13, 'Jammal', '563-451-0629');
+insert into TECHNICIAN (techID, name, phonenum) values (14, 'Hyacinthe', '341-527-6356');
+insert into TECHNICIAN (techID, name, phonenum) values (15, 'Allegra', '771-286-2322');

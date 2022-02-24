@@ -1,0 +1,10 @@
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (1, 1, 'Male', '3', '2021-08-09', 'Tedd');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (2, 2, 'Female', '0', null, 'Joana');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (3, 3, 'Genderqueer', '0', '2021-07-15', 'Justen');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (4, 4, 'Female', '1', null, 'Alain');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (5, 5, 'Male', '0', null, 'Wernher');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (6, 6, 'Female', '6', null, null);
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (7, 7, 'Male', '2', null, 'Theodoric');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (8, 8, 'Female', '9', null, 'York');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (9, 9, 'Female', '2', null, 'Shelley');
+insert into BABY (babyID, pregnancyID, gender, bloodtype, birthday, name) values (10, 10, 'Male', '7', '2021-11-04', 'Roldan');
